@@ -1,0 +1,27 @@
+INIZIALIZZARE UN REPOSITORY
+git init
+
+VISUALIZZARE LO STATO DI GIT IN FORMA ESTESA E BREVE
+git status
+git status --short
+
+AGGIUNGERE FILE ALLO STAGE, FORMA SINGOLO FILE FORMA TUTTI I FILE
+git add file.est
+git add --all
+
+COMMITTARE I FILE
+git commit -m "messaggio da inserire"
+
+CHIEDERE AIUTO A GIT
+git comando interessato -help
+git help --all
+
+CREARE UN BRANCH DI UN PROGETTO
+git branch nome-del-branch
+
+VERIFICARE L'ESISTENZA DEL NUOVO BRANCH
+git branch
+
+SWITCHARE TRA UN BRANCH ED UN'ALTRO
+git checkout nome-del-branch
+PS ora il branch attivo sul quale lavoriamo avrà un asterisco per indicarlo
